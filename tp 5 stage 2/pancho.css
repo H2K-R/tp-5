@@ -1,0 +1,36 @@
+/* Estilos generales para todos los divs con la clase 'panchito' */
+.panchito {
+    width: 200px;        /* Ancho de 200px para todos los divs */
+    height: 50px;        /* Alto de 50px para todos los divs */
+    background-color: #ffcc00; /* Color de fondo */
+    border-radius: 25px; /* Bordes redondeados (forma de "pancho") */
+    margin: 20px auto;   /* Centrando horizontalmente */
+    position: relative;  /* Necesario para el posicionamiento absoluto de los bordes */
+}
+
+/* Estilo específico para la parte superior del pancho */
+#pancho-top {
+    background-color: #ffcc00; /* Color del pancho */
+    border-top-left-radius: 25px; /* Redondear la parte superior izquierda */
+    border-top-right-radius: 25px; /* Redondear la parte superior derecha */
+    border-bottom: 4px solid #cc9900; /* Borde inferior para darle un aspecto más realista */
+}
+
+/* Estilo específico para la parte media del pancho */
+#pancho-middle {
+    width: 220px;        /* Un poco más ancho para simular el "pancho" */
+    height: 60px;        /* Un poco más alto */
+    background-color: #930935; /* Color del pancho */
+    border-radius: 30px; /* Bordes redondeados para simular el relleno del pancho */
+    border-bottom: 4px solid #6c0007; /* Borde inferior */
+}
+
+/* Estilo específico para la parte inferior del pancho */
+#pancho-bottom {
+    background-color: #ffcc00; /* Color del pancho */
+    border-bottom-left-radius: 25px; /* Redondear la parte inferior izquierda */
+    border-bottom-right-radius: 25px; /* Redondear la parte inferior derecha */
+    border-top: 4px solid #cc9900; /* Borde superior para darle un aspecto más realista */
+    width: 200px;        /* Ancho igual al superior */
+    height: 50px;        /* Alto igual al superior */
+}
